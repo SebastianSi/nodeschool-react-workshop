@@ -19,7 +19,7 @@
     "uid": 3255,
     "title": "bitcoin-mining",
     "description": "just add it to your website, it'll be fine",
-    "language": "ruby",
+    "language": "Ruby",
     "numberOfStars": 3,
     "tags": ["crypto", "blockchain", "hodlgang"]
   },
