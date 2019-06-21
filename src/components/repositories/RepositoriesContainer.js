@@ -32,18 +32,24 @@ class RepositoriesContainer extends React.Component {
     render() {
         const {repos} = this.state;
         return (
-            <ul style={{listStyle: 'none'}}>
-                {this.displayRepos(repos)}
-            </ul>
+            repos && repos.length ?
+                <ul style={{listStyle: 'none'}}>
+                    {this.displayRepos(repos)}
+                </ul>
+                :
+                <h2> Loading...</h2>
         );
     }
 
 }
 
 export default RepositoriesContainer;
-//TODO(milestone10): Congrats! You're at the final "official" milestone in the workshop
-// We'll want to leverage the power of conditional rendering for this one;
-// Notice that when initially entering the page, we have a blank container for
-// about a second. If it were a real app, it could be less or it could be more.
-// It would be nice to show at least a "Loading..." message while we're fetching
-// the repos.
+
+//TODO: Congrats for getting this far; as you can see, this last one was pretty easy :)
+// There's still more things you can do if you want to go further, here's a few ideas,
+// feel free to ask me and I can go into more detail about them:
+// A. add the dropdown in the header for the language, and also filter based on that
+// B. refactor class components with hooks
+// C. add routing using React-Router and make another subpage (right now, we only have Repositories)
+// D. improve the styling of the components
+// You've been great! Thanks for joining.
