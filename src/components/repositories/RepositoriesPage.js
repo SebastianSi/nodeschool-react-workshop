@@ -10,8 +10,12 @@ class RepositoriesPage extends React.Component {
         }
     };
 
-    onSearchInputChange = valueFromChild => {
-        console.log(valueFromChild)
+    onSearchInputChange = inputValue => {
+        this.setState({
+            filters: {
+                searchText: inputValue
+            }
+        })
     };
 
     render() {
@@ -27,8 +31,3 @@ class RepositoriesPage extends React.Component {
 }
 
 export default RepositoriesPage;
-
-//TODO(milestone06): let's update the state whenever the value from the input changes
-// and thus, notify RepositoriesContainer that the filters have changed
-// P.S. I also added some mock json for our repos which we'll use in the next challenge,
-// feel free to ignore for now
