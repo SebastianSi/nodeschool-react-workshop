@@ -6,7 +6,7 @@ class RepositoriesPage extends React.Component {
 
     state = {
         filters: {
-            searchText: 'SomeText'
+            searchText: ''
         }
     };
 
@@ -31,8 +31,3 @@ class RepositoriesPage extends React.Component {
 }
 
 export default RepositoriesPage;
-
-//TODO(milestone09): Great, we now have info about the repos, now let's make use
-// of that search input. We're already passing down the filters to the RepositoriesContainer,
-// now make the necessary changes in that file to only show the repositories which
-// have a title that contains whatever is in the search input
