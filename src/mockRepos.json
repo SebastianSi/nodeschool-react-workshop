@@ -1,5 +1,34 @@
 [
   {
-
+    "uid": 7821,
+    "title": "jsheroes.io",
+    "description": "The official JSHeroes website",
+    "language": "JavaScript",
+    "numberOfStars": 30,
+    "tags": ["community", "website", "conference", "event"]
+  },
+  {
+    "uid": 9524,
+    "title": "meetups",
+    "description": "JSHeroes meetup notes",
+    "language": null,
+    "numberOfStars": 21,
+    "tags": ["cool meetups"]
+  },
+  {
+    "uid": 3255,
+    "title": "bitcoin-mining",
+    "description": "just add it to your website, it'll be fine",
+    "language": "ruby",
+    "numberOfStars": 3,
+    "tags": ["crypto", "blockchain", "hodlgang"]
+  },
+  {
+    "uid": 4937,
+    "title": "Just a college student's repo",
+    "description": "",
+    "language": "Java",
+    "numberOfStars": 0,
+    "tags": []
   }
 ]

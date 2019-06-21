@@ -10,7 +10,6 @@ class RepositoriesPage extends React.Component {
         }
     };
 
-    //Note: the below function was added for milestone05
     onSearchInputChange = valueFromChild => {
         console.log(valueFromChild)
     };
@@ -28,3 +27,8 @@ class RepositoriesPage extends React.Component {
 }
 
 export default RepositoriesPage;
+
+//TODO(milestone06): let's update the state whenever the value from the input changes
+// and thus, notify RepositoriesContainer that the filters have changed
+// P.S. I also added some mock json for our repos which we'll use in the next challenge,
+// feel free to ignore for now
